@@ -8,7 +8,7 @@ Fork this repository
 
 ### First Pull Request
 1) Write a comment and `<section>` tag in the `index.html` file:
-`
+```html
 <!-- 
   Username 
   Description of component
@@ -17,13 +17,13 @@ Fork this repository
 <section class="my-block">
    ...
 </section>
-`
+```
 
 2) Create a pull request for your HTML!
 
 ### Second Pull Request
 1) Write your CSS block ruleset in `style.css`:
-`
+```css
 /* ====================
    My Component
 ======================*/
@@ -32,13 +32,13 @@ Fork this repository
 .my-block{
   ...
 }
-`
+```
 
 2) Create a pull request for your CSS!
 
 ### Third Pull Request
 1) Write your CSS __elements in `style.css`:
-`
+```css
 /* Elements */
 .my-block__elem1{
   ...
@@ -49,13 +49,13 @@ Fork this repository
 }
 
 ...
-`
+```
 
 2) Create a pull request for your CSS!
 
 ### Fourth and Fifth Pull Requests
 1) Write your CSS --modifiers in `style.css`:
-`
+```css
 /* Modifier one */
 .my-block--mod1{
   ...
@@ -66,7 +66,7 @@ Fork this repository
 }
 
 ...
-`
+```
 
 2) Create a pull request for your CSS!
 3) Repeat the Process for each Modifier.
