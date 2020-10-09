@@ -53,7 +53,7 @@ Fork this repository
 
 2) Create a pull request for your CSS!
 
-### Fourth and Fifth Pull Requests
+### Fourth Pull Request
 1) Write your CSS --modifiers in `style.css`:
 ```css
 /* Modifier one */
@@ -69,5 +69,3 @@ Fork this repository
 ```
 
 2) Create a pull request for your CSS!
-3) Repeat the Process for each Modifier.
-
