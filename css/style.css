@@ -91,3 +91,96 @@
   height:100px;
   padding:3px;
 }
+
+/* Modifiers */
+
+.playing-card--ace .playing-card__value::before{
+  content:'A';
+}
+.playing-card--2 .playing-card__value::before{
+  content:'2';
+}
+.playing-card--3 .playing-card__value::before{
+  content:'3';
+}
+.playing-card--4 .playing-card__value::before{
+  content:'4';
+}
+.playing-card--5 .playing-card__value::before{
+  content:'5';
+}
+.playing-card--6 .playing-card__value::before{
+  content:'6';
+}
+.playing-card--3 .playing-card__value::before{
+  content:'7';
+}
+.playing-card--3 .playing-card__value::before{
+  content:'8';
+}
+.playing-card--3 .playing-card__value::before{
+  content:'9';
+}
+.playing-card--3 .playing-card__value::before{
+  content:'10';
+}
+.playing-card--jack .playing-card__value::before{
+  content:'J';
+}
+.playing-card--queen .playing-card__value::before{
+  content:'Q';
+}
+.playing-card--king .playing-card__value::before{
+  content:'K';
+}
+
+/* Spades Suit */
+.playing-card--spades .playing-card__suit::before,
+.playing-card--spades .playing-card__face::before{
+  content:'\2660';
+}
+
+.playing-card--spades .playing-card__suit::before,
+.playing-card--spades .playing-card__face::before,
+.playing-card--spades .playing-card__value::before{
+  color: black;
+}
+
+/* Clubs Suit */
+.playing-card--clubs .playing-card__suit::before,
+.playing-card--clubs .playing-card__face::before{
+  content:'\2663';
+}
+
+.playing-card--clubs .playing-card__suit::before,
+.playing-card--clubs .playing-card__face::before,
+.playing-card--clubs .playing-card__value::before{
+  color: black;
+}
+
+/* Hearts Suit */
+.playing-card--hearts .playing-card__suit::before,
+.playing-card--hearts .playing-card__face::before{
+  content:'\2665';
+}
+
+.playing-card--hearts .playing-card__suit::before,
+.playing-card--hearts .playing-card__face::before,
+.playing-card--hearts .playing-card__value::before{
+  color: red;
+}
+
+/* Diamonds Suit */
+.playing-card--diamonds .playing-card__suit::before,
+.playing-card--diamonds .playing-card__face::before{
+  content:'\2666';
+}
+
+.playing-card--diamonds .playing-card__suit::before,
+.playing-card--diamonds .playing-card__face::before,
+.playing-card--diamonds .playing-card__value::before{
+  color: red;
+}
+
+
+
