@@ -112,16 +112,16 @@
 .playing-card--6 .playing-card__value::before{
   content:'6';
 }
-.playing-card--3 .playing-card__value::before{
+.playing-card--7 .playing-card__value::before{
   content:'7';
 }
-.playing-card--3 .playing-card__value::before{
+.playing-card--8 .playing-card__value::before{
   content:'8';
 }
-.playing-card--3 .playing-card__value::before{
+.playing-card--9 .playing-card__value::before{
   content:'9';
 }
-.playing-card--3 .playing-card__value::before{
+.playing-card--10 .playing-card__value::before{
   content:'10';
 }
 .playing-card--jack .playing-card__value::before{
