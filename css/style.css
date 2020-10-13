@@ -191,3 +191,7 @@
   display: inline-block;
 }
 
+/* Element */
+.amazing-button__button {
+  padding: 5px;
+}
