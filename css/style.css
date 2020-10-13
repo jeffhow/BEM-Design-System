@@ -182,4 +182,12 @@
   color: red;
 }
 
+/* ==============================
+         AWESOME BUTTON
+============================== */
+
+/* Block */
+.amazing-button {
+  display: inline-block;
+}
 
