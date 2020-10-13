@@ -191,6 +191,13 @@
   display: inline-block;
 }
 
+
+/* Element */
+.amazing-button__button {
+  padding: 5px;
+
+  
+  
 /*=====================================
       Formal Alert Component
 =====================================*/
@@ -203,4 +210,5 @@
   width: 50%;
   border: 8px solid #B0C4DE;
   text-align: center;
+
 }
