@@ -235,3 +235,15 @@
   color: #7de8e3;
   font-family: 'Syne', sans-serif;
 }
+ 
+/* Modifier */
+.formal-alert--casual{
+  border-radius: 10px;
+  background-color: #008080;
+}
+
+.formal-alert--urgent{
+ background-color: #DC143C;
+ box-shadow: 7px 7px 0px rgba(255, 20, 147, 0.5);
+ border: 8px solid #FF1493;
+}
