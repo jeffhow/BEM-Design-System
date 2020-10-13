@@ -210,5 +210,16 @@
   width: 50%;
   border: 8px solid #B0C4DE;
   text-align: center;
+}
+ 
+ /* Element */
+.formal-alert__title{
+  color: #280d69;
+  font-family: 'Sora', sans-serif;
+  text-shadow: 2px 2px #00FA9A, 4px 4px #00CED1;
+}
 
+.formal-alert__content{
+  color: #7de8e3;
+  font-family: 'Syne', sans-serif;
 }
