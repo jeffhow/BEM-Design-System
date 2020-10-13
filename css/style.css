@@ -191,11 +191,23 @@
   display: inline-block;
 }
 
-
 /* Element */
 .amazing-button__button {
   padding: 5px;
 
+/* Modifier*/
+.amazing-button--red {
+  color: #FF0000;
+  background-color: #FFDDDD;
+}
+.amazing-button--green {
+  color: #00FF00;
+  background-color: #DDFFDD;
+}
+.amazing-button--blue {
+  color: #0000FF;
+  background-color: #DDDDFF;
+}
   
   
 /*=====================================
