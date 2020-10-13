@@ -191,3 +191,16 @@
   display: inline-block;
 }
 
+/*=====================================
+      Formal Alert Component
+=====================================*/
+
+@import url('https://fonts.googleapis.com/css2?family=Sora&family=Syne&display=swap');
+
+/* Block */
+.formal-alert{
+  margin: auto;
+  width: 50%;
+  border: 8px solid #B0C4DE;
+  text-align: center;
+}
