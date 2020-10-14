@@ -267,3 +267,14 @@
   border-radius: 360px;
   background-color: Blue;
 }
+    .Cool-btn__label{
+  color: White;
+  font-weight: bolder;
+}
+.Cool-btn__label:hover{
+  color: Black;
+  background-color:blue;
+}
+.Cool-btn__circle:hover{
+  background-color: Purple;
+}
