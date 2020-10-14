@@ -112,16 +112,16 @@
 .playing-card--6 .playing-card__value::before{
   content:'6';
 }
-.playing-card--3 .playing-card__value::before{
+.playing-card--7 .playing-card__value::before{
   content:'7';
 }
-.playing-card--3 .playing-card__value::before{
+.playing-card--8 .playing-card__value::before{
   content:'8';
 }
-.playing-card--3 .playing-card__value::before{
+.playing-card--9 .playing-card__value::before{
   content:'9';
 }
-.playing-card--3 .playing-card__value::before{
+.playing-card--10 .playing-card__value::before{
   content:'10';
 }
 .playing-card--jack .playing-card__value::before{
@@ -236,16 +236,25 @@
   font-family: 'Syne', sans-serif;
 }
  
+
+/* Modifier */
+.formal-alert--casual{
+  border-radius: 10px;
+  background-color: #008080;
+}
+
+.formal-alert--urgent{
+ background-color: #DC143C;
+ box-shadow: 7px 7px 0px rgba(255, 20, 147, 0.5);
+ border: 8px solid #FF1493;
+}
+  
  
  /*=========================================
- Cool-btn component
-==============================*/
+       Cool-btn component
+==========================================*/
         /* Block*/
  .Cool-btn{
   max-width: 100%;
 }
- 
- 
- 
- 
- 
+
