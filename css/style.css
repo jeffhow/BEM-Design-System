@@ -278,3 +278,33 @@
 .Cool-btn__circle:hover{
   background-color: Purple;
 }
+
+ body {
+  background-color: grey;
+  margin: 0;
+}
+/*====================================
+           A.R Poll Request
+==================================*/
+
+/*Block*/
+.boo {
+  margin: 15px auto;
+  background-color: transparent;
+  max-width: 300px;
+  text-align: center;
+  border: 2px dotted red;
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 2px 2px 15px red;
+}
+
+/*Element*/
+.boo__btn {
+  border: red dotted 2px;
+  border-align: 15px;
+  pagging: 5px 10px;
+  font-family: sans-serif;
+  background-color: transparent;
+  magin: 10px 0;
+}
