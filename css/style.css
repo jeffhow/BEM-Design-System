@@ -308,3 +308,16 @@
   background-color: transparent;
   magin: 10px 0;
 }
+
+ /*Modifier*/
+.boo {
+  background-color: black;
+}
+
+.boo__title {
+  background-color: white;
+}
+
+.boo__btn {
+  background-color: white;
+}
