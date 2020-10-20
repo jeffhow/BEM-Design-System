@@ -322,13 +322,17 @@
   background-color: white;
 }
 
-/*===========
+
+/*==========================
  Tim's Component
-===========*/
+===========================*/
 .my-block{
  color="purple";
  }
-
+/*Element*/
+ .my-block__elem1{
+  font-size:10px;
+ }
  
 /* ====================
    Appleton's Component
