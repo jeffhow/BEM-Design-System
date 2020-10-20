@@ -347,7 +347,8 @@
 }
  
 /*==========================================
-       Calvin's School Pull Request
+
+       Calvin's School Poll 
 ==========================================*/
 
 /*Block*/
@@ -362,6 +363,18 @@
   background-color: rgb(210, 210, 210);
   border-radius: 5px;
 }
+
+ 
+/* Element */
+.boop__btn {
+  border-radius: 5px;
+  min-width:100px;
+  min-height:50px;
+  margin: 5px;
+  background-color:white;
+  transition: all .2s ease-out;
+  box-shadow: 3px 3px 3px rgba(0,0,0,0.5);
+
 
   
 /*====================================
