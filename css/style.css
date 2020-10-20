@@ -321,3 +321,8 @@
 .boo__btn {
   background-color: white;
 }
+
+/*Element*/
+ .my-block__elem1{
+  font-size:10px;
+ }
