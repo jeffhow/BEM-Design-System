@@ -329,7 +329,6 @@
  background-color: white;
  }
 
-
  
 /*Element*/
 .spooky__btn {
@@ -338,6 +337,15 @@
   height: 15%;
   width: 25%;
   border-radius: 360px;
+}
+
+/*Modifier*/
+.spooky {
+  background-color: red;
+}
+
+.spooky__title {
+  background-color: white;
 
 
 
