@@ -284,7 +284,7 @@
   margin: 0;
 }
 /*====================================
-           A.R Poll Request
+           A.R Pull Request
 ==================================*/
 
 /*Block*/
@@ -321,10 +321,88 @@
 .boo__btn {
   background-color: white;
 }
+
 /*====================================
           Spooky Poll Request
 ==================================*/
 .spooky{
  background-color: white;
  }
+
+
+ 
+/*Element*/
+.spooky__btn {
+  border: 2px solid;
+  border-color: black;
+  height: 15%;
+  width: 25%;
+  border-radius: 360px;
+
+
+
+
+/*==========================
+ Tim's Component
+===========================*/
+.my-block{
+ color="purple";
+ }
+/*Element*/
+ .my-block__elem1{
+  font-size:10px;
+ }
+ /*Modifier*/
+ .my-block--mod1{
+  font:sans-serif;
+ }
+  
+/* ====================
+   Appleton's Component
+======================*/
+
+/* Block */
+
+.name-card{
+  background-color: rgba(65,55,120,0.2);
+  max-width:300px;
+  padding:20px;
+  border-radius:20px;
+  text-align:center;
+}
+  
+ /* Elements */
+
+.name-card__heading{
+  color:purple;
+  text-align: left;
+}
+
+.name-card__body{
+  background-color: white;
+  color: black;
+  text-align: left;
+  border-radius: 5px;
+}
+
+.name-card__footer{
+  color:white;
+  font-style: italic;
+ }
+
+  /* Modifiers */
+
+.name-card--red{
+  border: red solid 3px;
+  box-shadow: 5px 5px grey;
+}
+
+.name-card--green{
+  border: green solid 3px;
+  box-shadow: 5px 5px grey;
+}
+
+.name-card--blue{
+  border: blue solid 3px;
+  box-shadow: 5px 5px grey;
 }
