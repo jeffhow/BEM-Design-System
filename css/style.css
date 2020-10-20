@@ -374,6 +374,34 @@
   background-color:white;
   transition: all .2s ease-out;
   box-shadow: 3px 3px 3px rgba(0,0,0,0.5);
+}
+
+ /* Modifier */
+.boop__title {
+  border-bottom: 1px solid rgb(26,62,99);
+}
+
+.boop__btn:hover{
+  background-color: rgb(230, 230, 230);
+  transform: scale(1.1);
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.boop__btn:focus{
+  background-color: rgb(200, 200, 200);
+  transform: scale(1.1);
+  border-radius: 5px;
+}
+
+.boop--blue{
+  color: lightblue;
+  background-color: blue;
+}
+
+.boop__title--white{
+  color: white;
+  background-color: gray;
 
 
   
