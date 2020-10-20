@@ -322,6 +322,22 @@
   background-color: white;
 }
 
+/*====================================
+          Spooky Poll Request
+==================================*/
+.spooky{
+ background-color: white;
+ }
+ 
+/*Element*/
+.spooky__btn {
+  border: 2px solid;
+  border-color: black;
+  height: 15%;
+  width: 25%;
+  border-radius: 360px;
+=======
+
 
 
 /*==========================
