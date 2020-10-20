@@ -323,6 +323,7 @@
 }
 
 
+
 /*==========================
  Tim's Component
 ===========================*/
@@ -333,7 +334,11 @@
  .my-block__elem1{
   font-size:10px;
  }
- 
+ /*Modifier*/
+ .my-block--mod1{
+  font:sans-serif;
+ }
+  
 /* ====================
    Appleton's Component
 ======================*/
