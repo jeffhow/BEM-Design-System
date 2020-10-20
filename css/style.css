@@ -321,6 +321,8 @@
 .boo__btn {
   background-color: white;
 }
+
+
  
 /* ====================
    Appleton's Component
@@ -354,3 +356,20 @@
   color:white;
   font-style: italic;
  }
+
+  /* Modifiers */
+
+.name-card--red{
+  border: red solid 3px;
+  box-shadow: 5px 5px grey;
+}
+
+.name-card--green{
+  border: green solid 3px;
+  box-shadow: 5px 5px grey;
+}
+
+.name-card--blue{
+  border: blue solid 3px;
+  box-shadow: 5px 5px grey;
+}
