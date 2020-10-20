@@ -321,3 +321,8 @@
 .boo__btn {
   background-color: white;
 }
+
+/*Modifier*/
+ .my-block--mod1{
+  font:sans-serif;
+ }
