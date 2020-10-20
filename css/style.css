@@ -10,6 +10,49 @@
  */
  
 /* Add your CSS components here. */
+/*************************\
+*****Lobster Component*****
+\*************************/
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+.hidden{
+  background-color: salmon;
+  color: rgba(59, 53,70, 0.75);
+  text-align: center;
+  font-family: sans-serif;
+}
+/* Elements */
+.hidden__text{
+  font-family: "Lobster";
+  border: 1px solid;
+  font-size: 20px;
+  text-shadow: 2px 2px purple;
+}
+.hidden__center{
+  background-image: url(https://media.istockphoto.com/vectors/water-surface-seamless-background-top-view-vector-id1179016817?b=1&k=6&m=1179016817&s=612x612&w=0&h=Kiaio9jJuTN71lCuzaTg8fxueN3m886Ts9XSRElnmYI=) ;
+}
+.hidden--show{
+  opacity: 1.0;
+  color: color: rgba(59, 53,70, 0.75);
+  text-shadow: 2px 2px purple;
+}
+.hidden--show:hover{
+  transition: 2s;
+  opacity: 0.0;
+  text shadow: none;
+  border: none;
+}
+.hidden--hide{
+  opacity: 0.0;
+  text-shadow: none;
+  border: none;
+}
+.hidden--hide:hover{
+  transition: 2s;
+  color: color: rgba(59, 53,70, 0.75);
+  opacity: 1.0;
+  text-shadow: 2px 2px purple;
+  border: solid 1px;
+}
 
 
 
