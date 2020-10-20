@@ -10,7 +10,16 @@
  */
  
 /* Add your CSS components here. */
-
+/*************************\
+*****Lobster Component*****
+\*************************/
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+.hidden{
+  background-color: salmon;
+  color: rgba(59, 53,70, 0.75);
+  text-align: center;
+  font-family: sans-serif;
+}
 /* =============================
    Playing Card Component
 ==============================*/
