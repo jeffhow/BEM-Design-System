@@ -284,7 +284,7 @@
   margin: 0;
 }
 /*====================================
-           A.R Poll Request
+           A.R Pull Request
 ==================================*/
 
 /*Block*/
@@ -322,6 +322,12 @@
   background-color: white;
 }
 
+/*===========
+ Tim's Component
+===========*/
+.my-block{
+ color="purple";
+ }
 
  
 /* ====================
