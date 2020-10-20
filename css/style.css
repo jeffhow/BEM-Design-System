@@ -10,8 +10,11 @@
  */
  
 /* Add your CSS components here. */
+
+
+
 /*************************\
-*****Lobster Component*****
+*****Hidden Component*****
 \*************************/
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 .hidden{
@@ -20,6 +23,7 @@
   text-align: center;
   font-family: sans-serif;
 }
+
 /* Elements */
 .hidden__text{
   font-family: "Lobster";
@@ -30,6 +34,7 @@
 .hidden__center{
   background-image: url(https://media.istockphoto.com/vectors/water-surface-seamless-background-top-view-vector-id1179016817?b=1&k=6&m=1179016817&s=612x612&w=0&h=Kiaio9jJuTN71lCuzaTg8fxueN3m886Ts9XSRElnmYI=) ;
 }
+
 /* =============================
    Playing Card Component
 ==============================*/
@@ -303,7 +308,7 @@
   margin: 0;
 }
 /*====================================
-           A.R Poll Request
+           A.R Pull Request
 ==================================*/
 
 /*Block*/
@@ -339,4 +344,97 @@
 
 .boo__btn {
   background-color: white;
+}
+
+/*====================================
+          Spooky Poll Request
+==================================*/
+.spooky{
+ background-color: white;
+ }
+
+ 
+/*Element*/
+.spooky__btn {
+  border: 2px solid;
+  border-color: black;
+  height: 15%;
+  width: 25%;
+  border-radius: 360px;
+}
+
+/*Modifier*/
+.spooky {
+  background-color: red;
+}
+
+.spooky__title {
+  background-color: white;
+
+
+
+
+/*==========================
+ Tim's Component
+===========================*/
+.my-block{
+ color="purple";
+ }
+/*Element*/
+ .my-block__elem1{
+  font-size:10px;
+ }
+ /*Modifier*/
+ .my-block--mod1{
+  font:sans-serif;
+ }
+  
+/* ====================
+   Appleton's Component
+======================*/
+
+/* Block */
+
+.name-card{
+  background-color: rgba(65,55,120,0.2);
+  max-width:300px;
+  padding:20px;
+  border-radius:20px;
+  text-align:center;
+}
+  
+ /* Elements */
+
+.name-card__heading{
+  color:purple;
+  text-align: left;
+}
+
+.name-card__body{
+  background-color: white;
+  color: black;
+  text-align: left;
+  border-radius: 5px;
+}
+
+.name-card__footer{
+  color:white;
+  font-style: italic;
+ }
+
+  /* Modifiers */
+
+.name-card--red{
+  border: red solid 3px;
+  box-shadow: 5px 5px grey;
+}
+
+.name-card--green{
+  border: green solid 3px;
+  box-shadow: 5px 5px grey;
+}
+
+.name-card--blue{
+  border: blue solid 3px;
+  box-shadow: 5px 5px grey;
 }
