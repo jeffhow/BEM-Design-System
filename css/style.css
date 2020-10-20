@@ -321,7 +321,7 @@
 .boo__btn {
   background-color: white;
 }
-
+ 
 /* ====================
    Appleton's Component
 ======================*/
@@ -335,3 +335,22 @@
   border-radius:20px;
   text-align:center;
 }
+  
+ /* Elements */
+
+.name-card__heading{
+  color:purple;
+  text-align: left;
+}
+
+.name-card__body{
+  background-color: white;
+  color: black;
+  text-align: left;
+  border-radius: 5px;
+}
+
+.name-card__footer{
+  color:white;
+  font-style: italic;
+ }
