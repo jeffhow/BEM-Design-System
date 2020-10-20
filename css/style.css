@@ -321,3 +321,17 @@
 .boo__btn {
   background-color: white;
 }
+
+/* ====================
+   Appleton's Component
+======================*/
+
+/* Block */
+
+.name-card{
+  background-color: rgba(65,55,120,0.2);
+  max-width:300px;
+  padding:20px;
+  border-radius:20px;
+  text-align:center;
+}
