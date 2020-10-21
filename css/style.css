@@ -397,18 +397,17 @@
 }
 
  /*Modifier*/
-.boo {
+.boo--dark {
   background-color: black;
 }
 
-.boo__title {
+.boo--dark .boo__title {
   background-color: white;
 }
-
-  .boo__btn {
+  
+.boo--dark .boo__btn {
   background-color: white;
 }
-
   
 
 /* ====================
@@ -419,10 +418,22 @@
 .table {
   display: block;
   background-color: white;
+}
   
- /* Elements */
+/* Elements */
 .table__content {
   text-align: center;
+}
+ 
+/* Modifier one */
+.table--thead-dark .table__head{
+  background-color: #343a40;
+}
+
+.table--thead-dark .table__item--heading{
+  color: white;
+}
+
 
 /*====================================
   Martin's General Request Component
