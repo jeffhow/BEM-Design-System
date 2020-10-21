@@ -10,9 +10,29 @@
  */
  
 /* Add your CSS components here. */
+
+
+/*Pblock*/
+.PTitle{
+  border:1px black solid;
+  border-radius:5px;
+  background-color:gray;
+}
+/*Pmethod*/
+.PTitle__WordMark--lightUp:hover{
+  transition:1s;
+  text-shadow:3px 3px black;
+
+/*Pelement*/
+.PTitle__WordMark{
+  text-align:center;
+  font-size:2em;
+  margin:0 auto;
+}
+  
 /*************************\
 *****Lobster Component*****
-\*************************/
+\*************************/  
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 .hidden{
   background-color: salmon;
@@ -377,15 +397,34 @@
 }
 
  /*Modifier*/
-.boo {
+.boo--dark {
   background-color: black;
 }
 
-.boo__title {
+.boo--dark .boo__title {
   background-color: white;
 }
+  
+.boo--dark .boo__btn {
+  background-color: white;
+}
+  
 
+/* ====================
+   Random programming language ranking
+======================*/
 
+/* Block */
+.table {
+  display: block;
+  background-color: white;
+}
+  
+/* Elements */
+.table__content {
+  text-align: center;
+}
+ 
 /* Modifier one */
 .table--thead-dark .table__head{
   background-color: #343a40;
@@ -394,10 +433,7 @@
 .table--thead-dark .table__item--heading{
   color: white;
 }
-=======
-.boo__btn {
-  background-color: white;
-}
+
 
 /*====================================
   Martin's General Request Component
@@ -415,6 +451,72 @@
   max-height: 600px;
   background-color: #444;
   font-family: "Commissioner", sans-serif;
+ }
+ 
+ /*Element*/
+.navbar {
+  background-color: turquoise;
+}
+
+.navbar__list {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  display: flex;
+}
+
+.navbar__item {
+  font-size: 18px;
+  margin: 0;
+}
+
+.navbar__link {
+  color: black;
+  text-decoration: none;
+  margin: 0;
+  padding: 25px 22px;
+  display: block;
+  transition: 0.7s all ease;
+  position: relative;
+}
+
+.navbar__link:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.my-block__heading {
+  background-color: green;
+  font-family: verdana;
+  margin: 0;
+  padding: 10px
+}
+
+.my-block__text {
+  font-size: 1.5em;
+  line-height: 50px;
+}
+
+.my-block__footer {
+  background-color: lightgreen;
+  padding: 15px;
+  margin: 0;
+}
+ 
+ /*Modifiers*/
+.my-block--blank {
+  background-color: black;
+  padding: 6px;
+}
+
+.my-block--blank-text {
+ visibility: hidden;
+}
+
+.my-block--blank2 {
+  background-color: black;
+  color: #999;
+  font-size: 2rem;
+}
  
 /*==========================================
 
