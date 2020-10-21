@@ -10,16 +10,7 @@
  */
  
 /* Add your CSS components here. */
-/*************************\
-*****Lobster Component*****
-\*************************/
 
-/*Pelement*/
-.PTitle__WordMark{
-  text-align:center;
-  font-size:2em;
-  margin:0 auto;
-}
 
 /*Pblock*/
 .PTitle{
@@ -27,7 +18,21 @@
   border-radius:5px;
   background-color:gray;
 }
+/*Pmethod*/
+.PTitle__WordMark--lightUp:hover{
+  transition:1s;
+  text-shadow:3px 3px black;
 
+/*Pelement*/
+.PTitle__WordMark{
+  text-align:center;
+  font-size:2em;
+  margin:0 auto;
+}
+  
+/*************************\
+*****Lobster Component*****
+\*************************/  
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 .hidden{
   background-color: salmon;
