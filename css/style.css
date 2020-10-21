@@ -172,3 +172,7 @@
 }
 
 
+/* Elements */
+.table__content {
+  text-align: center;
+}
