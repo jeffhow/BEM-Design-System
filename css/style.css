@@ -10,6 +10,17 @@
  */
  
 /* Add your CSS components here. */
+/* ====================
+   The Title Components
+======================*/
+
+/*Pblock*/
+.PTitle{
+  border:1px black solid;
+  border-radius:5px;
+  background-color:gray;
+}
+
 /*************************\
 *****Lobster Component*****
 \*************************/
