@@ -13,6 +13,12 @@
 /*************************\
 *****Lobster Component*****
 \*************************/
+/*Pblock*/
+.PTitle{
+  border:1px black solid;
+  border-radius:5px;
+  background-color:gray;
+}
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 .hidden{
   background-color: salmon;
