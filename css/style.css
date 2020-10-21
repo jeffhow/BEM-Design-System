@@ -540,3 +540,21 @@
   border: blue solid 3px;
   box-shadow: 5px 5px grey;
 }
+ 
+
+
+/* ==============================
+      Azriel's Poll components
+===================================*/
+/* block */
+.poll{
+  border: 3px black solid;
+  border-radius: 50px;
+  max-width: 400px;
+  margin: 30px auto;
+  padding: 60px;
+  box-shadow: 2px 2px 12px black;
+  font-family: 'Roboto', cursive;
+  display:flex;
+  flex-direction: column;
+}
