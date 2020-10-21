@@ -583,3 +583,9 @@
   color: #B11CED;
   text-align:center;
 }
+ 
+ /* Azriel's Modifier */
+  
+.poll--grey{
+  background-color: #bbb;
+}
