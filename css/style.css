@@ -1,4 +1,82 @@
+/* 
+ * Remember to use the BEM methodology
+ *
+ * Brief intro to BEM:
+ * https://css-tricks.com/bem-101/
+ *
+ * Full docs on BEM:
+ * http://getbem.com/
+ *
+ */
+ 
+/* Add your CSS components here. */
+/*************************\
+*****Lobster Component*****
+\*************************/
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+.hidden{
+  background-color: salmon;
+  color: rgba(59, 53,70, 0.75);
+  text-align: center;
+  font-family: sans-serif;
+}
+/* Elements */
+.hidden__text{
+  font-family: "Lobster";
+  border: 1px solid;
+  font-size: 20px;
+  text-shadow: 2px 2px purple;
+}
+.hidden__center{
+  background-image: url(https://media.istockphoto.com/vectors/water-surface-seamless-background-top-view-vector-id1179016817?b=1&k=6&m=1179016817&s=612x612&w=0&h=Kiaio9jJuTN71lCuzaTg8fxueN3m886Ts9XSRElnmYI=) ;
+}
+.hidden--show{
+  opacity: 1.0;
+  color: color: rgba(59, 53,70, 0.75);
+  text-shadow: 2px 2px purple;
+}
+.hidden--show:hover{
+  transition: 2s;
+  opacity: 0.0;
+  text shadow: none;
+  border: none;
+}
+.hidden--hide{
+  opacity: 0.0;
+  text-shadow: none;
+  border: none;
+}
+.hidden--hide:hover{
+  transition: 2s;
+  color: color: rgba(59, 53,70, 0.75);
+  opacity: 1.0;
+  text-shadow: 2px 2px purple;
+  border: solid 1px;
+}
 
+
+
+/*************************\
+*****Hidden Component*****
+\*************************/
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+.hidden{
+  background-color: salmon;
+  color: rgba(59, 53,70, 0.75);
+  text-align: center;
+  font-family: sans-serif;
+}
+
+/* Elements */
+.hidden__text{
+  font-family: "Lobster";
+  border: 1px solid;
+  font-size: 20px;
+  text-shadow: 2px 2px purple;
+}
+.hidden__center{
+  background-image: url(https://media.istockphoto.com/vectors/water-surface-seamless-background-top-view-vector-id1179016817?b=1&k=6&m=1179016817&s=612x612&w=0&h=Kiaio9jJuTN71lCuzaTg8fxueN3m886Ts9XSRElnmYI=) ;
+}
 
 /* =============================
    Playing Card Component
@@ -101,16 +179,16 @@
 .playing-card--6 .playing-card__value::before{
   content:'6';
 }
-.playing-card--3 .playing-card__value::before{
+.playing-card--7 .playing-card__value::before{
   content:'7';
 }
-.playing-card--3 .playing-card__value::before{
+.playing-card--8 .playing-card__value::before{
   content:'8';
 }
-.playing-card--3 .playing-card__value::before{
+.playing-card--9 .playing-card__value::before{
   content:'9';
 }
-.playing-card--3 .playing-card__value::before{
+.playing-card--10 .playing-card__value::before{
   content:'10';
 }
 .playing-card--jack .playing-card__value::before{
@@ -171,6 +249,142 @@
   color: red;
 }
 
+/* ==============================
+         AWESOME BUTTON
+============================== */
+
+/* Block */
+.amazing-button {
+  display: inline-block;
+}
+
+/* Element */
+.amazing-button__button {
+  padding: 5px;
+
+/* Modifier*/
+.amazing-button--red {
+  color: #FF0000;
+  background-color: #FFDDDD;
+}
+.amazing-button--green {
+  color: #00FF00;
+  background-color: #DDFFDD;
+}
+.amazing-button--blue {
+  color: #0000FF;
+  background-color: #DDDDFF;
+}
+  
+  
+/*=====================================
+      Formal Alert Component
+=====================================*/
+
+@import url('https://fonts.googleapis.com/css2?family=Sora&family=Syne&display=swap');
+
+/* Block */
+.formal-alert{
+  margin: auto;
+  width: 50%;
+  border: 8px solid #B0C4DE;
+  text-align: center;
+}
+ 
+ /* Element */
+.formal-alert__title{
+  color: #280d69;
+  font-family: 'Sora', sans-serif;
+  text-shadow: 2px 2px #00FA9A, 4px 4px #00CED1;
+}
+
+.formal-alert__content{
+  color: #7de8e3;
+  font-family: 'Syne', sans-serif;
+}
+ 
+
+/* Modifier */
+.formal-alert--casual{
+  border-radius: 10px;
+  background-color: #008080;
+}
+
+.formal-alert--urgent{
+ background-color: #DC143C;
+ box-shadow: 7px 7px 0px rgba(255, 20, 147, 0.5);
+ border: 8px solid #FF1493;
+}
+  
+ 
+ /*=========================================
+       Cool-btn component
+==========================================*/
+        /* Block*/
+ .Cool-btn{
+  max-width: 100%;
+}
+
+       /*Element*/
+.Cool-btn__circle{
+  border: 2px solid;
+  border-color: black;
+  height: 400px;
+  width: 400px;
+  border-radius: 360px;
+  background-color: Blue;
+}
+    .Cool-btn__label{
+  color: White;
+  font-weight: bolder;
+}
+.Cool-btn__label:hover{
+  color: Black;
+  background-color:blue;
+}
+.Cool-btn__circle:hover{
+  background-color: Purple;
+}
+
+ body {
+  background-color: grey;
+  margin: 0;
+}
+/*====================================
+           A.R Pull Request
+==================================*/
+
+/*Block*/
+.boo {
+  margin: 15px auto;
+  background-color: transparent;
+  max-width: 300px;
+  text-align: center;
+  border: 2px dotted red;
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 2px 2px 15px red;
+}
+
+/*Element*/
+.boo__btn {
+  border: red dotted 2px;
+  border-align: 15px;
+  pagging: 5px 10px;
+  font-family: sans-serif;
+  background-color: transparent;
+  magin: 10px 0;
+}
+
+ /*Modifier*/
+.boo {
+  background-color: black;
+}
+
+.boo__title {
+  background-color: white;
+}
+
 
 /* ====================
    Random programming language ranking
@@ -180,4 +394,208 @@
 .table {
   display: block;
   background-color: white;
+=======
+.boo__btn {
+  background-color: white;
+}
+
+/*====================================
+  Martin's General Request Component
+====================================*/
+
+@import url("https://fonts.googleapis.com/css2?family=Commissioner:wght@600&display=swap");
+
+/*Block*/
+.my-block {
+  border: 10px solid black;
+  border-radius: 10px;
+  max-width: 300px;
+  margin: 0 auto;
+  text-align: center;
+  max-height: 600px;
+  background-color: #444;
+  font-family: "Commissioner", sans-serif;
+ 
+/*==========================================
+
+       Calvin's School Poll 
+==========================================*/
+
+/*Block*/
+.boop {
+  max-width: 1100px;
+  margin: 25px auto;
+  border: 3px solid rgb(26,62,99);
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+  font-family: Montserrat, sans-serif;
+  background-color: rgb(210, 210, 210);
+  border-radius: 5px;
+}
+
+ 
+/* Element */
+.boop__btn {
+  border-radius: 5px;
+  min-width:100px;
+  min-height:50px;
+  margin: 5px;
+  background-color:white;
+  transition: all .2s ease-out;
+  box-shadow: 3px 3px 3px rgba(0,0,0,0.5);
+}
+
+ /* Modifier */
+.boop__title {
+  border-bottom: 1px solid rgb(26,62,99);
+}
+
+.boop__btn:hover{
+  background-color: rgb(230, 230, 230);
+  transform: scale(1.1);
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.boop__btn:focus{
+  background-color: rgb(200, 200, 200);
+  transform: scale(1.1);
+  border-radius: 5px;
+}
+
+.boop--blue{
+  color: lightblue;
+  background-color: blue;
+}
+
+.boop__title--white{
+  color: white;
+  background-color: gray;
+
+
+  
+/*====================================
+          Spooky Poll Request
+==================================*/
+.spooky{
+ background-color: white;
+ }
+
+ 
+/*Element*/
+.spooky__btn {
+  border: 2px solid;
+  border-color: black;
+  height: 15%;
+  width: 25%;
+  border-radius: 360px;
+}
+
+/*Modifier*/
+.spooky {
+  background-color: red;
+}
+
+.spooky__title {
+  background-color: white;
+
+
+
+
+/*==========================
+ Tim's Component
+===========================*/
+.my-block{
+ color="purple";
+ }
+/*Element*/
+ .my-block__elem1{
+  font-size:10px;
+ }
+ /*Modifier*/
+ .my-block--mod1{
+  font:sans-serif;
+ }
+  
+/* ====================
+   Appleton's Component
+======================*/
+
+/* Block */
+
+.name-card{
+  background-color: rgba(65,55,120,0.2);
+  max-width:300px;
+  padding:20px;
+  border-radius:20px;
+  text-align:center;
+}
+  
+ /* Elements */
+
+.name-card__heading{
+  color:purple;
+  text-align: left;
+}
+
+.name-card__body{
+  background-color: white;
+  color: black;
+  text-align: left;
+  border-radius: 5px;
+}
+
+.name-card__footer{
+  color:white;
+  font-style: italic;
+ }
+
+  /* Modifiers */
+
+.name-card--red{
+  border: red solid 3px;
+  box-shadow: 5px 5px grey;
+}
+
+.name-card--green{
+  border: green solid 3px;
+  box-shadow: 5px 5px grey;
+}
+
+.name-card--blue{
+  border: blue solid 3px;
+  box-shadow: 5px 5px grey;
+}
+ 
+
+
+/* ==============================
+      Azriel's Poll components
+===================================*/
+/* block */
+.poll{
+  border: 3px black solid;
+  border-radius: 50px;
+  max-width: 400px;
+  margin: 30px auto;
+  padding: 60px;
+  box-shadow: 2px 2px 12px black;
+  font-family: 'Roboto', cursive;
+  display:flex;
+  flex-direction: column;
+}
+
+/* Azriel's Element */
+.poll__title{
+  margin-top: 0;
+  font-size:2rem;
+  color: #B11CED;
+  text-align:center;
+}
+ 
+ /* Azriel's Modifier */
+  
+.poll--grey{
+  background-color: #bbb;
 }
