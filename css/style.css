@@ -405,6 +405,16 @@
   background-color: white;
 }
 
+
+/* ====================
+   Random programming language ranking
+======================*/
+
+/* Block */
+.table {
+  display: block;
+  background-color: white;
+=======
 .boo__btn {
   background-color: white;
 }
