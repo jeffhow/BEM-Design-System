@@ -575,3 +575,11 @@
   display:flex;
   flex-direction: column;
 }
+
+/* Azriel's Element */
+.poll__title{
+  margin-top: 0;
+  font-size:2rem;
+  color: #B11CED;
+  text-align:center;
+}
