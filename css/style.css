@@ -172,3 +172,12 @@
 }
 
 
+/* ====================
+   Random programming language ranking
+======================*/
+
+/* Block */
+.table {
+  display: block;
+  background-color: white;
+}
