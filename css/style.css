@@ -10,6 +10,73 @@
  */
  
 /* Add your CSS components here. */
+/*************************\
+*****Lobster Component*****
+\*************************/
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+.hidden{
+  background-color: salmon;
+  color: rgba(59, 53,70, 0.75);
+  text-align: center;
+  font-family: sans-serif;
+}
+/* Elements */
+.hidden__text{
+  font-family: "Lobster";
+  border: 1px solid;
+  font-size: 20px;
+  text-shadow: 2px 2px purple;
+}
+.hidden__center{
+  background-image: url(https://media.istockphoto.com/vectors/water-surface-seamless-background-top-view-vector-id1179016817?b=1&k=6&m=1179016817&s=612x612&w=0&h=Kiaio9jJuTN71lCuzaTg8fxueN3m886Ts9XSRElnmYI=) ;
+}
+.hidden--show{
+  opacity: 1.0;
+  color: color: rgba(59, 53,70, 0.75);
+  text-shadow: 2px 2px purple;
+}
+.hidden--show:hover{
+  transition: 2s;
+  opacity: 0.0;
+  text shadow: none;
+  border: none;
+}
+.hidden--hide{
+  opacity: 0.0;
+  text-shadow: none;
+  border: none;
+}
+.hidden--hide:hover{
+  transition: 2s;
+  color: color: rgba(59, 53,70, 0.75);
+  opacity: 1.0;
+  text-shadow: 2px 2px purple;
+  border: solid 1px;
+}
+
+
+
+/*************************\
+*****Hidden Component*****
+\*************************/
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+.hidden{
+  background-color: salmon;
+  color: rgba(59, 53,70, 0.75);
+  text-align: center;
+  font-family: sans-serif;
+}
+
+/* Elements */
+.hidden__text{
+  font-family: "Lobster";
+  border: 1px solid;
+  font-size: 20px;
+  text-shadow: 2px 2px purple;
+}
+.hidden__center{
+  background-image: url(https://media.istockphoto.com/vectors/water-surface-seamless-background-top-view-vector-id1179016817?b=1&k=6&m=1179016817&s=612x612&w=0&h=Kiaio9jJuTN71lCuzaTg8fxueN3m886Ts9XSRElnmYI=) ;
+}
 
 /* =============================
    Playing Card Component
@@ -284,7 +351,7 @@
   margin: 0;
 }
 /*====================================
-           A.R Poll Request
+           A.R Pull Request
 ==================================*/
 
 /*Block*/
@@ -338,4 +405,173 @@
   max-height: 600px;
   background-color: #444;
   font-family: "Commissioner", sans-serif;
+ 
+/*==========================================
+
+       Calvin's School Poll 
+==========================================*/
+
+/*Block*/
+.boop {
+  max-width: 1100px;
+  margin: 25px auto;
+  border: 3px solid rgb(26,62,99);
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+  font-family: Montserrat, sans-serif;
+  background-color: rgb(210, 210, 210);
+  border-radius: 5px;
+}
+
+ 
+/* Element */
+.boop__btn {
+  border-radius: 5px;
+  min-width:100px;
+  min-height:50px;
+  margin: 5px;
+  background-color:white;
+  transition: all .2s ease-out;
+  box-shadow: 3px 3px 3px rgba(0,0,0,0.5);
+}
+
+ /* Modifier */
+.boop__title {
+  border-bottom: 1px solid rgb(26,62,99);
+}
+
+.boop__btn:hover{
+  background-color: rgb(230, 230, 230);
+  transform: scale(1.1);
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.boop__btn:focus{
+  background-color: rgb(200, 200, 200);
+  transform: scale(1.1);
+  border-radius: 5px;
+}
+
+.boop--blue{
+  color: lightblue;
+  background-color: blue;
+}
+
+.boop__title--white{
+  color: white;
+  background-color: gray;
+
+
+  
+/*====================================
+          Spooky Poll Request
+==================================*/
+.spooky{
+ background-color: white;
+ }
+
+ 
+/*Element*/
+.spooky__btn {
+  border: 2px solid;
+  border-color: black;
+  height: 15%;
+  width: 25%;
+  border-radius: 360px;
+}
+
+/*Modifier*/
+.spooky {
+  background-color: red;
+}
+
+.spooky__title {
+  background-color: white;
+
+
+
+
+/*==========================
+ Tim's Component
+===========================*/
+.my-block{
+ color="purple";
+ }
+/*Element*/
+ .my-block__elem1{
+  font-size:10px;
+ }
+ /*Modifier*/
+ .my-block--mod1{
+  font:sans-serif;
+ }
+  
+/* ====================
+   Appleton's Component
+======================*/
+
+/* Block */
+
+.name-card{
+  background-color: rgba(65,55,120,0.2);
+  max-width:300px;
+  padding:20px;
+  border-radius:20px;
+  text-align:center;
+}
+  
+ /* Elements */
+
+.name-card__heading{
+  color:purple;
+  text-align: left;
+}
+
+.name-card__body{
+  background-color: white;
+  color: black;
+  text-align: left;
+  border-radius: 5px;
+}
+
+.name-card__footer{
+  color:white;
+  font-style: italic;
+ }
+
+  /* Modifiers */
+
+.name-card--red{
+  border: red solid 3px;
+  box-shadow: 5px 5px grey;
+}
+
+.name-card--green{
+  border: green solid 3px;
+  box-shadow: 5px 5px grey;
+}
+
+.name-card--blue{
+  border: blue solid 3px;
+  box-shadow: 5px 5px grey;
+}
+ 
+
+
+/* ==============================
+      Azriel's Poll components
+===================================*/
+/* block */
+.poll{
+  border: 3px black solid;
+  border-radius: 50px;
+  max-width: 400px;
+  margin: 30px auto;
+  padding: 60px;
+  box-shadow: 2px 2px 12px black;
+  font-family: 'Roboto', cursive;
+  display:flex;
+  flex-direction: column;
 }
