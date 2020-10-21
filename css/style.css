@@ -172,3 +172,12 @@
 }
 
 
+
+/* Modifier one */
+.table--thead-dark .table__head{
+  background-color: #343a40;
+}
+
+.table--thead-dark .table__item--heading{
+  color: white;
+}
