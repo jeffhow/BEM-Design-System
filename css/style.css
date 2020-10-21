@@ -388,6 +388,23 @@
 .boo__btn {
   background-color: white;
 }
+
+/*====================================
+  Martin's General Request Component
+====================================*/
+
+@import url("https://fonts.googleapis.com/css2?family=Commissioner:wght@600&display=swap");
+
+/*Block*/
+.my-block {
+  border: 10px solid black;
+  border-radius: 10px;
+  max-width: 300px;
+  margin: 0 auto;
+  text-align: center;
+  max-height: 600px;
+  background-color: #444;
+  font-family: "Commissioner", sans-serif;
  
 /*==========================================
 
