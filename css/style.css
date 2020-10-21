@@ -405,6 +405,11 @@
   background-color: white;
 }
 
+  .boo__btn {
+  background-color: white;
+}
+
+  
 
 /* ====================
    Random programming language ranking
@@ -414,10 +419,10 @@
 .table {
   display: block;
   background-color: white;
-=======
-.boo__btn {
-  background-color: white;
-}
+  
+ /* Elements */
+.table__content {
+  text-align: center;
 
 /*====================================
   Martin's General Request Component
