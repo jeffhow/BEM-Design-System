@@ -456,6 +456,22 @@
   margin: 0;
 }
  
+ /*Modifiers*/
+.my-block--blank {
+  background-color: black;
+  padding: 6px;
+}
+
+.my-block--blank-text {
+ visibility: hidden;
+}
+
+.my-block--blank2 {
+  background-color: black;
+  color: #999;
+  font-size: 2rem;
+}
+ 
 /*==========================================
 
        Calvin's School Poll 
