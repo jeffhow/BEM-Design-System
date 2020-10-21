@@ -13,6 +13,12 @@
 /*************************\
 *****Lobster Component*****
 \*************************/
+/*Pmethod*/
+.PTitle__WordMark--lightUp:hover{
+  transition:1s;
+  text-shadow:3px 3px black;
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 .hidden{
   background-color: salmon;
