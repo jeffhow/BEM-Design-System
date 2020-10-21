@@ -13,12 +13,21 @@
 /*************************\
 *****Lobster Component*****
 \*************************/
+
+/*Pelement*/
+.PTitle__WordMark{
+  text-align:center;
+  font-size:2em;
+  margin:0 auto;
+}
+
 /*Pblock*/
 .PTitle{
   border:1px black solid;
   border-radius:5px;
   background-color:gray;
 }
+
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 .hidden{
   background-color: salmon;
