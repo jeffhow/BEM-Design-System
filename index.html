@@ -7,8 +7,11 @@
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="./css/normalize.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;1,200&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
 
 
 </head>
@@ -33,6 +36,79 @@
     <div class="playing-card__value"></div>
     <div class="playing-card__suit"></div>
   </div>
+</section>
+
+<!--
+  Alabs02
+  A weather card component with
+  other sub-components like 
+  slider, chips and buttons
+-->
+
+<section class="grid">
+    <div class="weather-card">
+        <div class="weather-card__body">
+            <div class="weather-card__header">
+                <h4 class="weather-card__title">San Francisco</h4>
+                <span class="weather-card__subtitle">Mon, 12:30 PM, Mostly sunny</span>
+            </div>
+
+            <div class="weather-card__content">
+                <div class="weather-card__heading">23&deg;C</div>
+                
+                <img src="./img/cloudy.svg" alt="..." class="weather-card__img">
+            </div>
+
+            <div class="weather-card__info">
+                <i class="material-icons weather-card__icon">send</i>
+                <span class="weather-card__text--small">23 km/h</span>
+            </div>
+
+            <div class="weather-card__info">
+                <i class="material-icons weather-card__icon">cloud_download</i>
+                <span class="weather-card__text--small">40%</span>
+            </div>
+
+            <div class="weather-card__slidebar">
+                <input type="range" name="slider" id="slider" min="1" max="7" class="weather-card__slider">
+                <div class="weather-card__days">
+                    <span class="weather-card__text--days">su</span>
+                    <span class="weather-card__text--days">MO</span>
+                    <span class="weather-card__text--days">TU</span>
+                    <span class="weather-card__text--day4">WED</span>
+                    <span class="weather-card__text--days">TH</span>
+                    <span class="weather-card__text--days">FR</span>
+                    <span class="weather-card__text--dayss">SA</span>
+                </div>
+            </div>
+
+            <div class="weather-card__table">
+                <div class="weather-card__row">
+                    <div class="border-text weather-card__text--medium">Tuesday</div>
+                    <i class="material-icons weather-card__icon">wb_sunny</i>
+                    <div class="weather-card__text--small">24&deg;12&deg;</div>
+                </div>
+
+                <div class="weather-card__row">
+                    <div class="border-text weather-card__text--medium">Wednesday</div>
+                    <i class="material-icons weather-card__icon">wb_sunny</i>
+                    <div class="weather-card__text--small">24&deg;12&deg;</div>
+                </div>
+
+                <div class="weather-card__row">
+                    <div class="border-text weather-card__text--medium">Thursday</div>
+                    <i class="material-icons weather-card__icon">cloud</i>
+                    <div class="weather-card__text--small">24&deg;12&deg;</div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="weather-card__divider"></div>
+        
+        <div class="weather-card__actions">
+            <a class="weather-card__btn" href="#!">full report</a>
+        </div>
+    </div>
 </section>
   
    <!-- 
