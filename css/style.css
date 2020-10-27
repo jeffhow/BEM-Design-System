@@ -22,7 +22,7 @@
 .PTitle__WordMark--lightUp:hover{
   transition:1s;
   text-shadow:3px 3px black;
-
+}
 /*Pelement*/
 .PTitle__WordMark{
   text-align:center;
@@ -52,13 +52,13 @@
 }
 .hidden--show{
   opacity: 1.0;
-  color: color: rgba(59, 53,70, 0.75);
+  color: rgba(59, 53,70, 0.75);
   text-shadow: 2px 2px purple;
 }
 .hidden--show:hover{
   transition: 2s;
   opacity: 0.0;
-  text shadow: none;
+  text-shadow: none;
   border: none;
 }
 .hidden--hide{
@@ -68,7 +68,7 @@
 }
 .hidden--hide:hover{
   transition: 2s;
-  color: color: rgba(59, 53,70, 0.75);
+  color: rgba(59, 53,70, 0.75);
   opacity: 1.0;
   text-shadow: 2px 2px purple;
   border: solid 1px;
@@ -281,7 +281,7 @@
 /* Element */
 .amazing-button__button {
   padding: 5px;
-
+}
 /* Modifier*/
 .amazing-button--red {
   color: #FF0000;
@@ -390,10 +390,10 @@
 .boo__btn {
   border: red dotted 2px;
   border-align: 15px;
-  pagging: 5px 10px;
+  padding: 5px 10px;
   font-family: sans-serif;
   background-color: transparent;
-  magin: 10px 0;
+  margin: 10px 0;
 }
 
  /*Modifier*/
@@ -574,7 +574,7 @@
 .boop__title--white{
   color: white;
   background-color: gray;
-
+}
 
   
 /*====================================
@@ -601,7 +601,7 @@
 
 .spooky__title {
   background-color: white;
-
+}
 
 
 
@@ -609,7 +609,7 @@
  Tim's Component
 ===========================*/
 .my-block{
- color="purple";
+ color:"purple";
  }
 /*Element*/
  .my-block__elem1{
@@ -700,4 +700,31 @@
   
 .poll--grey{
   background-color: #bbb;
+}
+
+/*===============================
+******** RAY-EZ'S components ****
+**********************************/
+.rayez-block{
+  width:80%;
+  font-family: sans-serif;
+  padding:2rem;
+}
+.rayez_spooky__btn{
+  width:100%;
+
+  padding:0.8rem 0;
+  transition: all 0.3s;
+}
+.btn--spooky{
+  background-color:pink;
+  border:none;
+  border-radius:5px;
+  color:purple;
+}
+.btn--spooky:hover{
+  background-color:purple;
+  box-shadow:3px 2px pink;
+  transform:translate(-3px,-5px);
+  color:#f3f;
 }
