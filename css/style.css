@@ -728,3 +728,22 @@
   transform:translate(-3px,-5px);
   color:#f3f;
 }
+
+
+/* deborasilva07 */
+.navbar__link::before{
+  content:'';
+  position:absolute;
+  width:100%;
+  height:100%;
+  left:0;
+  bottom:10px;
+  border-bottom: 2px solid white;
+  transform:scalex(0);
+  transition: 0.3s all ease;
+}
+
+.navbar__link:hover::before{
+  transform:scalex(1);
+}
+
