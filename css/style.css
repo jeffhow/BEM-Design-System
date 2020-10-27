@@ -701,3 +701,28 @@
 .poll--grey{
   background-color: #bbb;
 }
+ 
+ 
+/* deborasilva07 */
+ body{
+  margin:0;
+  background-color:  rgba(241, 198, 207, 0.397);
+}
+
+
+
+/*-----Nav Component-----*/
+
+
+/* Block */
+.navbar{
+   background-color: #f3f3f3;
+   border: 1px solid #e7e7e7;
+  padding:20px 0;
+  margin:0;
+  font-family: 'Questrial', sans-serif;
+  text-transform: uppercase;
+  font-weight:400;
+  font-size:1rem;
+}
+/*  end */
