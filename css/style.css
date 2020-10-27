@@ -23,12 +23,166 @@
   transition:1s;
   text-shadow:3px 3px black;
 
+}
+
 /*Pelement*/
 .PTitle__WordMark{
   text-align:center;
   font-size:2em;
   margin:0 auto;
 }
+
+/*  
+  =====================================
+   ***********Alabs02****************
+   ******Weather Card Component******
+  ====================================
+*/
+[class*="weather-card__"] {
+  font-family: 'Nunito', sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+  color: #616161;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-gap: 2rem;
+  gap: 2rem;
+  padding: 20px;
+}
+
+.weather-card {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  background-color: #FFFFFF;
+  border-radius: 4px;
+  box-shadow: 0px 0px 6px 0px rgba(148, 148, 148, 0.6);
+}
+
+.weather-card:hover {
+  box-shadow: 0px 0px 6px 0px rgba(148, 148, 148, 0.8);
+}
+
+.weather-card__body {
+  padding: 10px;
+}
+
+.weather-card__title {
+  font-size: x-large;
+  font-weight: 500;
+}
+
+.weather-card__subtitle {
+  font-size: smaller;
+  font-weight: 100;
+}
+
+.weather-card__content {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 20px 0px;
+}
+
+.weather-card__heading {
+  font-size: 3rem;
+  font-weight: 500;
+  padding-right: 4rem;
+}
+
+.weather-card__img {
+  width: 80px;
+  height: 80px;
+}
+
+.weather-card__info {
+  display: flex;
+  align-items: center;
+  padding: 10px 0px;
+}
+
+.weather-card__icon {
+  font-size: medium;
+}
+
+.weather-card__slidebar {
+  width: 100%;
+  padding: 0px 10px;
+}
+
+.weather-card__slider {
+  width: 100%;
+  height: 2px;
+  border-color: #1565C0;
+  background-color: #1976D2;
+}
+
+.weather-card__days {
+  display: flex;
+  padding-top: 5px;
+  padding-bottom: 10px;
+}
+
+.weather-card__text--days {
+  text-transform: uppercase;
+  padding-right: 40px;
+}
+
+.weather-card__text--day4 {
+  text-transform: uppercase;
+  padding-right: 32px;
+}
+
+.weather-card__text--small {
+  font-weight: 200;
+  font-size: smaller;
+  padding: 0px 20px;
+}
+
+.weather-card__text--medium {
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+.weather-card .border-text {
+  width: 150px;
+}
+
+.weather-card__row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px 0px;
+}
+
+.weather-card__divider {
+  border-top: 1px solid #E0E0E0;
+}
+
+.weather-card__actions {
+  display: flex;
+  padding: 10px 10px;
+  text-transform: uppercase;
+}
+
+.weather-card__btn {
+  padding: 2px;
+}
+
+.weather-card__btn:hover {
+  background-color: #F5F5F5;
+  padding: 8px 10px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 2px 0px rgba(95, 95, 95, 0.2);
+}
+
+
   
 /*************************\
 *****Lobster Component*****
@@ -119,7 +273,7 @@
 .playing-card__top-corner{
   width:50px;
   height:100px;
-  postion:absolute;
+  position: absolute;
   left:0;
   top:0;
   padding:3px;
@@ -282,6 +436,8 @@
 .amazing-button__button {
   padding: 5px;
 
+}
+
 /* Modifier*/
 .amazing-button--red {
   color: #FF0000;
@@ -389,8 +545,8 @@
 /*Element*/
 .boo__btn {
   border: red dotted 2px;
-  border-align: 15px;
-  pagging: 5px 10px;
+  border-left: 15px;
+  padding: 5px 10px;
   font-family: sans-serif;
   background-color: transparent;
   magin: 10px 0;
@@ -580,7 +736,7 @@
 /*====================================
           Spooky Poll Request
 ==================================*/
-.spooky{
+.spooky {
  background-color: white;
  }
 
@@ -725,4 +881,56 @@
   font-weight:400;
   font-size:1rem;
 }
+
+/*  deborasilva07 */
+/* Element */
+.navbar__list {
+  list-style-type:none;
+  margin:0;
+  padding:0;
+  display:flex;
+  justify-content: center;
+}
+.navbar__item{
+  margin:0;
+/*   border: 2px red solid; */
+}
+.navbar__link{
+  color: rgb(138, 116, 116);
+  text-decoration:none;
+  padding:20px;
+  margin:0;
+  transition: 0.3s all ease;
+  position:relative;
+}
+.navbar__link:hover{
+/*   text-decoration:underline; */
+  background-color: rgba(241, 198, 207, 0.397);
+}
 /*  end */
+
+.btn--spooky:hover{
+  background-color:purple;
+  box-shadow:3px 2px pink;
+  transform:translate(-3px,-5px);
+  color:#f3f;
+}
+
+
+/* deborasilva07 */
+.navbar__link::before{
+  content:'';
+  position:absolute;
+  width:100%;
+  height:100%;
+  left:0;
+  bottom:10px;
+  border-bottom: 2px solid white;
+  transform:scalex(0);
+  transition: 0.3s all ease;
+}
+
+.navbar__link:hover::before{
+  transform:scalex(1);
+}
+
