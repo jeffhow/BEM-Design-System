@@ -728,7 +728,7 @@
 .boop__title--white{
   color: white;
   background-color: gray;
-
+}
 
   
 /*====================================
@@ -755,7 +755,7 @@
 
 .spooky__title {
   background-color: white;
-
+}
 
 
 
@@ -763,7 +763,7 @@
  Tim's Component
 ===========================*/
 .my-block{
- color="purple";
+ color:"purple";
  }
 /*Element*/
  .my-block__elem1{
@@ -854,4 +854,31 @@
   
 .poll--grey{
   background-color: #bbb;
+}
+
+/*===============================
+******** RAY-EZ'S components ****
+**********************************/
+.rayez-block{
+  width:80%;
+  font-family: sans-serif;
+  padding:2rem;
+}
+.rayez_spooky__btn{
+  width:100%;
+
+  padding:0.8rem 0;
+  transition: all 0.3s;
+}
+.btn--spooky{
+  background-color:pink;
+  border:none;
+  border-radius:5px;
+  color:purple;
+}
+.btn--spooky:hover{
+  background-color:purple;
+  box-shadow:3px 2px pink;
+  transform:translate(-3px,-5px);
+  color:#f3f;
 }
