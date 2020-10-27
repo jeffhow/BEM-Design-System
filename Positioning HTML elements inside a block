@@ -1,0 +1,5 @@
+<button class="button">
+    <span class="button__inner">
+        <span class="icon"></span>
+    </span>
+</button>
